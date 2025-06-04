@@ -114,7 +114,17 @@
     </div>
 
 
-
+<p> import org.junit.Assert;
+import org.junit.Test;
+public class APP {
+    @Test
+     void SetUpTest() {
+        WebDriver dr = new ChromeDriver();
+        dr.manage().window().maximize();
+        dr.get("https://vtu.ac.in/");
+    }
+}
+</p>
 </body>
 
 </html>
